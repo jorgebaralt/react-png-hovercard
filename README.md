@@ -30,7 +30,7 @@ Use in bash CLI:
 
 ## Usage
 
-[![Edit React Plug-N'-Go Component]([![Edit 2v762nk85y](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/2v762nk85y))](https://codesandbox.io/s/2v762nk85y)
+[![Edit React Plug-N'-Go Hovercard](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/x3w1q79l4p)
 
 ```jsx
 import React, { Component } from 'react';
