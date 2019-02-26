@@ -84,7 +84,7 @@ export default class App extends Component {
 
 ## Pending
 
-- ...
+- Support for react older versions
 
 ## License
 
