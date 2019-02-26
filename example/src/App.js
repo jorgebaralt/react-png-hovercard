@@ -11,7 +11,6 @@ export default class App extends Component {
         <h1>We love using images in the transitions</h1>
         <h3>Looks so good right?</h3>
         <div className="ImageContent">
-          <HoverCard />
           <HoverCard
             front={
               <div className="Front">
