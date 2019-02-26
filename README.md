@@ -2,7 +2,7 @@
 
 Use in bash CLI:
 
-`$ git clone https://github.com/jorgebaralt/react-png-hovercard`
+`\$ npm install --save react-png-hovercard
 
 # Showcase
 
@@ -16,11 +16,14 @@ Use in bash CLI:
 
 ## Instructions
 
-1. ...
+1. literally, just plug and go.
+2. ' import HoverCard from "react-png-hovercard"; '.
+3. declare the component and pass the required props (front, back) look below for more details.
+4. style front and back as you wish. remember, the default border radius is 20px, so it will require to either change border radius, or add some padding to the content of your card.
 
 ## Features
 
-1. ...
+1. Nice animation transition between front and back of the card.
 
 ## Props
 
