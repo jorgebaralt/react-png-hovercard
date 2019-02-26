@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 // CSS
 import classes from './App.css';
 // JSX
-// import React_PNG_Component from 'react-png-component'
 import HoverCard from 'react-png-hovercard';
 
 export default class App extends Component {
@@ -12,6 +11,7 @@ export default class App extends Component {
         <h1>We love using images in the transitions</h1>
         <h3>Looks so good right?</h3>
         <div className="ImageContent">
+          <HoverCard />
           <HoverCard
             front={
               <div className="Front">

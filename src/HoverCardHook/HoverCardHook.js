@@ -3,7 +3,7 @@ import propTypes from 'prop-types'
 // CSS
 import classes from './HoverCard.css'
 
-const hoverCard = (props) => {
+const HoverCardHook = (props) => {
   console.log(props)
   if (!props.front || !props.back) {
     return null
@@ -62,7 +62,7 @@ const hoverCard = (props) => {
   )
 }
 
-hoverCard.propTypes = {
+HoverCardHook.propTypes = {
   front: propTypes.any,
   back: propTypes.any,
   style: propTypes.obj,
@@ -74,4 +74,4 @@ hoverCard.propTypes = {
   margin: propTypes.number
 }
 
-export default hoverCard
+export default HoverCardHook
