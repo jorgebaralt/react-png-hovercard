@@ -28,7 +28,8 @@ const hoverCard = (props) => {
         ...props.style,
         maxWidth: props.maxWidth,
         borderRadius: props.borderRadius,
-        height: props.height
+        height: props.height,
+        margin: props.margin
       }}
       onMouseEnter={() => {
         setHover(true)
@@ -69,7 +70,8 @@ hoverCard.propTypes = {
   maxWidth: propTypes.string,
   animationSpeed: propTypes.number,
   borderRadius: propTypes.number,
-  height: propTypes.number
+  height: propTypes.number,
+  margin: propTypes.number
 }
 
 export default hoverCard

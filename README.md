@@ -1,41 +1,18 @@
-# Usage
+# Install
 
 Use in bash CLI:
 
-`$    git clone https://github.com/rmolinamir/react-png-component`
+`$ git clone https://github.com/jorgebaralt/react-png-hovercard`
 
-Afterwards, run the following commands in the root folder:
+# Showcase
 
-1. `npm install`
-2. `cd example`
-3. `npm install`
+![](hovercard-demo.gif)
 
-**To link** the component to the example folder:
-
-1. On the root folder, execute `npm link`.
-2. After it's finished, execute `cd example`, then `npm link react-png-component`.
-
-**To run**, execute `npm start` on root and inside the example folder.
-
-**To build**, index.js, execute `npm build` on root folder.
-
-**To publish**, execute `npm publish` on root folder.
-
-# React Plug-N'-Go Component
+# React Plug-N'-Go Hovercard
 
 > Component description
 
-[![NPM](https://img.shields.io/npm/v/react-png-component.svg)](https://www.npmjs.com/package/react-png-component) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
-## Install
-
-```bash
-npm install --save react-png-component
-```
-
-## Showcase
-
-...
+[![NPM](https://img.shields.io/npm/v/react-png-hovercard.svg)](https://www.npmjs.com/package/react-png-hovercard) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Instructions
 
@@ -47,26 +24,22 @@ npm install --save react-png-component
 
 ## Props
 
-Props               |       Functionality
--------------       |       -------------
-`prop`              |       ...
+| Props  | Functionality |
+| ------ | ------------- |
+| `prop` | ...           |
 
 ## Usage
 
-[![Edit React Plug-N'-Go Component](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/)
+[![Edit React Plug-N'-Go Component]([![Edit 2v762nk85y](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/2v762nk85y))](https://codesandbox.io/s/2v762nk85y)
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import Component from 'react-png-component'
+import Component from 'react-png-component';
 
 const component = () => {
-    return (
-    <Component>
-      React Plug-N'-Go Component.
-    </Component>
-  )
-}
+  return <Component>React Plug-N'-Go Component.</Component>;
+};
 ```
 
 ## Pending
@@ -75,4 +48,4 @@ const component = () => {
 
 ## License
 
-MIT © [author](https://github.com/author)
+MIT © [author](https://github.com/jorgebaralt)
