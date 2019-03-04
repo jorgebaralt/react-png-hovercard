@@ -3,7 +3,7 @@ import propTypes from 'prop-types'
 // CSS
 import classes from './HoverCard.css'
 
-const hoverCard = (props) => {
+const HoverCardHook = (props) => {
   console.log(props)
   if (!props.front || !props.back) {
     return null
@@ -28,7 +28,8 @@ const hoverCard = (props) => {
         ...props.style,
         maxWidth: props.maxWidth,
         borderRadius: props.borderRadius,
-        height: props.height
+        height: props.height,
+        margin: props.margin
       }}
       onMouseEnter={() => {
         setHover(true)
@@ -61,7 +62,7 @@ const hoverCard = (props) => {
   )
 }
 
-hoverCard.propTypes = {
+HoverCardHook.propTypes = {
   front: propTypes.any,
   back: propTypes.any,
   style: propTypes.obj,
@@ -69,7 +70,8 @@ hoverCard.propTypes = {
   maxWidth: propTypes.string,
   animationSpeed: propTypes.number,
   borderRadius: propTypes.number,
-  height: propTypes.number
+  height: propTypes.number,
+  margin: propTypes.number
 }
 
-export default hoverCard
+export default HoverCardHook

@@ -1,3 +1,6 @@
-import HoverCard from './HoverCard/HoverCard'
+import HoverCardHook from './HoverCardHook/HoverCardHook'
+import HoverCardClass from './HoverCardClass/HoverCardClass'
 
-export default HoverCard
+export const HoverCard = HoverCardClass
+
+export default HoverCardHook
