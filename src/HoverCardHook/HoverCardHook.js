@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import propTypes from 'prop-types'
 // CSS
-import classes from './HoverCard.css'
+import classes from './HoverCardHook.css'
 
 const HoverCardHook = (props) => {
   console.log(props)
@@ -65,7 +65,7 @@ const HoverCardHook = (props) => {
 HoverCardHook.propTypes = {
   front: propTypes.any,
   back: propTypes.any,
-  style: propTypes.obj,
+  style: propTypes.object,
   className: propTypes.any,
   maxWidth: propTypes.string,
   animationSpeed: propTypes.number,

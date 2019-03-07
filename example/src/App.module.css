@@ -10,8 +10,9 @@
 
 .Info {
   color: #424242;
-  width: 60%;
+  width: 40%;
   margin: 0 auto;
+  font-size: 18px;
 }
 
 .ImageContent {
@@ -82,7 +83,7 @@
 }
 
 .BackText2 {
-  background-color: #c2185b;
+  background-color: #2f2f2f;
   color: white;
   text-transform: uppercase;
   display: flex;

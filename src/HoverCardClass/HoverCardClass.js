@@ -1,9 +1,21 @@
 import React, { Component } from 'react'
-import propTypes from 'prop-types'
+import PropTypes from 'prop-types'
 // CSS
 import classes from './HoverCardClass.css'
 
 class HoverCardClass extends Component {
+  static propTypes = {
+    front: PropTypes.any,
+    back: PropTypes.any,
+    style: PropTypes.object,
+    className: PropTypes.any,
+    maxWidth: PropTypes.number,
+    animationSpeed: PropTypes.number,
+    borderRadius: PropTypes.number,
+    height: PropTypes.number,
+    margin: PropTypes.number
+  }
+
   state = { isHover: false }
 
   render() {
@@ -62,18 +74,6 @@ class HoverCardClass extends Component {
       </div>
     )
   }
-}
-
-HoverCardClass.propTypes = {
-  front: propTypes.any,
-  back: propTypes.any,
-  style: propTypes.obj,
-  className: propTypes.any,
-  maxWidth: propTypes.string,
-  animationSpeed: propTypes.number,
-  borderRadius: propTypes.number,
-  height: propTypes.number,
-  margin: propTypes.number
 }
 
 export default HoverCardClass
