@@ -5,13 +5,13 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "lazy-component-test": "file:..",
     "prop-types": "^15.6.2",
-    "react-png-tooltip": "^1.1.5",
-    "react-syntax-highlighter": "^10.1.3",
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
+    "react-png-tooltip": "^1.1.5",
     "react-scripts": "^2.1.5",
-    "lazy-component-test": "file:.."
+    "react-syntax-highlighter": "^10.1.3"
   },
   "scripts": {
     "start": "react-scripts start",

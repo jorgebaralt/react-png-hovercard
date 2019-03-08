@@ -29,10 +29,10 @@ Use in bash CLI:
 
 | Props            | Functionality                                                                                                     | Default |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------- | ------- |
-| `front`          | REQUIRED, this props receive JSX to be rendered on the front of the card. Look down for examples on how to do it. | ...     |
-| `back`           | REQUIRED, this props receive JSX to be rendered on the back of the card. Look down for examples on how to do it.  | ...     |
-| `style`          | style object to customize the card                                                                                | ...     |
-| `className`      | CSS class to style the card                                                                                       | ...     |
+| `front`          | REQUIRED, this props receive JSX to be rendered on the front of the card. Look down for examples on how to do it. | NA      |
+| `back`           | REQUIRED, this props receive JSX to be rendered on the back of the card. Look down for examples on how to do it.  | NA      |
+| `style`          | style object to customize the card                                                                                | NA      |
+| `className`      | CSS class to style the card                                                                                       | NA      |
 | `maxWidth`       | Width of the card                                                                                                 | 100%    |
 | `animationSpeed` | time in milliseconds                                                                                              | 250 ms  |
 | `borderRadius`   | border radius of the card                                                                                         | 20px    |

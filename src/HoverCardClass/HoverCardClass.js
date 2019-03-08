@@ -7,7 +7,7 @@ class HoverCardClass extends Component {
   static propTypes = {
     front: PropTypes.any,
     back: PropTypes.any,
-    style: PropTypes.object,
+    style: PropTypes.any,
     className: PropTypes.any,
     maxWidth: PropTypes.number,
     animationSpeed: PropTypes.number,

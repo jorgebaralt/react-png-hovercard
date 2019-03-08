@@ -1,18 +1,98 @@
 .App {
   /* display: flex; */
-  text-align: center;
   min-height: 100vh;
   position: relative;
   margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #484848;
+  padding: 0px 24px;
+  max-width: 844px;
+}
+
+.Title {
+  font-size: 56px;
+  border-bottom: 1px dashed rgb(206, 212, 222);
+  color: #484848;
+  margin: 24px 0;
+  text-align: center;
+}
+
+.Subtitle {
+  position: relative;
+  padding-bottom: 5px;
+  line-height: 1.2em;
+  font-weight: 400;
+  font-size: 36px;
+  border-bottom: 1px dashed rgb(206, 212, 222);
+  margin: 20px 0;
+}
+
+.List {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.Item {
+  text-transform: uppercase;
+  list-style: upper-roman;
+}
+
+.Item a {
+  text-decoration: none;
+  color: mediumaquamarine;
+  font-weight: bold;
 }
 
 .Info {
   color: #424242;
-  width: 40%;
-  margin: 0 auto;
+  width: 80%;
+  margin: 40px auto;
   font-size: 18px;
+}
+
+.Example {
+  display: inline-block;
+  width: fit-content;
+  position: relative;
+  font-size: 48px;
+  font-weight: normal;
+  margin: 24px 0;
+}
+
+.Example::before {
+  display: block;
+  position: absolute;
+  content: '';
+  bottom: -4px;
+  left: 10%;
+  width: 90%;
+  height: 3px;
+  background: rgb(102, 205, 170);
+}
+
+.CodeBlock {
+  color: rgb(197, 200, 198);
+  text-shadow: rgba(0, 0, 0, 0.3) 0px 1px;
+  font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  tab-size: 4;
+  hyphens: none;
+  padding: 1em;
+  margin: 0.5em 0px;
+  overflow: auto;
+  border-radius: 0.3em;
+  background: rgb(40, 44, 52);
 }
 
 .ImageContent {
@@ -104,4 +184,9 @@
 .SVG {
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.CardContainer {
+  display: flex;
+  justify-content: center;
 }

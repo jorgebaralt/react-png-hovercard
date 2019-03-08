@@ -65,7 +65,7 @@ const HoverCardHook = (props) => {
 HoverCardHook.propTypes = {
   front: propTypes.any,
   back: propTypes.any,
-  style: propTypes.object,
+  style: propTypes.any,
   className: propTypes.any,
   maxWidth: propTypes.string,
   animationSpeed: propTypes.number,
