@@ -6,7 +6,6 @@ import HoverCard from 'react-png-hovercard'
 import SyntaxHighlighter from 'react-syntax-highlighter'
 import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 
-console.log(classes)
 export default class App extends Component {
   render() {
     const firstCode = ` 

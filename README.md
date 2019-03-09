@@ -2,9 +2,13 @@
 
 Use in bash CLI:
 
-`\$ npm install --save react-png-hovercard
+`$ npm install --save react-png-hovercard`
 
 # Showcase
+
+[Example on CodeSandbox](https://x3w1q79l4p.codesandbox.io/)
+
+[Website use Example](jorgebaralt.com)
 
 ![](hovercard-demo.gif)
 
@@ -17,7 +21,7 @@ Use in bash CLI:
 ## Instructions
 
 1. literally, just plug and go.
-2. ' import HoverCard from "react-png-hovercard"; '.
+2. import HoverCard from "react-png-hovercard";
 3. declare the component and pass the required props (front, back) look below for more details.
 4. style front and back as you wish. remember, the default border radius is 20px, so it will require to either change border radius, or add some padding to the content of your card.
 
@@ -43,43 +47,45 @@ Use in bash CLI:
 
 ### For React.js version ^16.8
 
+#### Uses React Hooks
+
 [![Edit React Plug-N'-Go Hovercard](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/x3w1q79l4p)
 
 ```jsx
-import React, { Component } from 'react';
-import classes from './App.css';
 import HoverCard from 'react-png-hovercard';
+```
 
-export default class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="ImageContent">
-          <HoverCard
-            front={
-              <div className="Front">
-                <img
-                  src="https://images.unsplash.com/photo-1498910265115-9fb541931cd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1089&q=80"
-                  alt=""
-                  style={{ objectFit: 'cover' }}
-                />
-              </div>
-            }
-            back={
-              <div className="Back">
-                <p> I would do anything to be there</p>
-              </div>
-            }
-            maxWidth={400}
-            animationSpeed={500}
-            height={300}
-            margin={10}
-          />
-        </div>
-      </div>
-    );
+### For React.js version ^15.0.0
+
+#### Uses React Classes to handle state
+
+```jsx
+import { HoverCard } from 'react-png-hovercard';
+```
+
+### Example
+
+```jsx
+<HoverCard
+  front={
+    <div className="Front">
+      <img
+        src="https://images.unsplash.com/photo-1498910265115-9fb541931cd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1089&q=80"
+        alt=""
+        style={{ objectFit: 'cover' }}
+      />
+    </div>
   }
-}
+  back={
+    <div className="Back">
+      <p> I would do anything to be there</p>
+    </div>
+  }
+  maxWidth={400}
+  animationSpeed={500}
+  height={300}
+  margin={10}
+/>
 ```
 
 ## Pending
@@ -88,4 +94,4 @@ export default class App extends Component {
 
 ## License
 
-MIT © [author](https://github.com/jorgebaralt)
+MIT © [jorgebaralt](https://github.com/jorgebaralt)
