@@ -14,7 +14,7 @@ Use in bash CLI:
 
 # React Plug-N'-Go Hovercard
 
-> Component description
+> Renders a card that provides animation to transition between its front and back JSX. The animation is activated on Hover.
 
 [![NPM](https://img.shields.io/npm/v/react-png-hovercard.svg)](https://www.npmjs.com/package/react-png-hovercard) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
