@@ -4,7 +4,6 @@ import propTypes from 'prop-types'
 import classes from './HoverCardHook.css'
 
 const HoverCardHook = (props) => {
-  console.log(props)
   if (!props.front || !props.back) {
     return null
   }
@@ -67,7 +66,7 @@ HoverCardHook.propTypes = {
   back: propTypes.any,
   style: propTypes.any,
   className: propTypes.any,
-  maxWidth: propTypes.string,
+  maxWidth: propTypes.number,
   animationSpeed: propTypes.number,
   borderRadius: propTypes.number,
   height: propTypes.number,
