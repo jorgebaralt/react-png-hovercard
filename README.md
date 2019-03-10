@@ -7,7 +7,7 @@ Use in bash CLI:
 # Showcase
 
 [Example on CodeSandbox](https://x3w1q79l4p.codesandbox.io/)
-
+[![Edit React Plug-N'-Go Hovercard](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/x3w1q79l4p)
 [Website use Example](jorgebaralt.com)
 
 ![](hovercard-demo.gif)
@@ -48,8 +48,6 @@ Use in bash CLI:
 ### For React.js version ^16.8
 
 #### Uses React Hooks
-
-[![Edit React Plug-N'-Go Hovercard](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/x3w1q79l4p)
 
 ```jsx
 import HoverCard from 'react-png-hovercard';
