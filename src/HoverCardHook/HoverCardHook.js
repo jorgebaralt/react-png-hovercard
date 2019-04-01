@@ -42,6 +42,12 @@ const HoverCardHook = (props) => {
       onBlur={() => {
         setHover(false)
       }}
+      onClick={() => {
+        setHover(true)
+      }}
+      onTouchStart={() => {
+        setHover(true)
+      }}
     >
       {/* Front */}
       <div
